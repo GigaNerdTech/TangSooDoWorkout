@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tangsoodoworkout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tangsoodo_icon"
+        android:label="Tang Soo Do Workout"
+        android:roundIcon="@drawable/tangsoodo_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WarmUpsActivity"></activity>
+        <activity android:name=".TimedWorkoutActivity" />
+        <activity android:name=".TechniqueDrillsActivity" />
+        <activity android:name=".RunningWorkoutActivity" />
+        <activity android:name=".RunningFlashcardsActivity" />
+        <activity android:name=".RandomizedWorkoutsSetupActivity" />
+        <activity android:name=".RandomizedWorkoutActivity" />
+        <activity android:name=".RandomizedCombinationsActivity" />
+        <activity android:name=".PreProgrammedWorkoutActivity" />
+        <activity android:name=".PartialWorkoutsActivity" />
+        <activity android:name=".LineDrillsActivity" />
+        <activity android:name=".FlashcardsActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

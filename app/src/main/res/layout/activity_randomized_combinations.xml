@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tangsoodo_background"
+    android:backgroundTint="#80303f9f"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7c4dff"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Randomized Combinations"
+        app:titleMarginStart="60dp"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:titleTextColor="#ffff00" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Number of Different Combos"
+        android:textColor="#050505"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/numberCombosEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#80d8ff"
+        android:backgroundTint="#00fffefe"
+        android:ems="10"
+        android:inputType="number"
+        android:text="5"
+        android:textAlignment="textEnd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#536dfe"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Number of Techniques per Combo"
+        android:textColor="#050505"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/numberTechniquesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#80d8ff"
+        android:backgroundTint="#00fffefe"
+        android:ems="10"
+        android:inputType="number"
+        android:text="3"
+        android:textAlignment="textEnd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#448aff"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Number of Repetitions per Combo"
+        android:textColor="#050505"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/numberRepetitionsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#80d8ff"
+        android:backgroundTint="#00fffefe"
+        android:ems="10"
+        android:inputType="number"
+        android:text="3"
+        android:textAlignment="textEnd"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#536dfe"
+        android:visibility="visible" />
+
+    <Switch
+        android:id="@+id/randomHandCombosSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="#80f7f32e"
+        android:backgroundTint="#ffff00"
+        android:switchPadding="15dp"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="Hand Techniques"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#cd18298f"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/randomKickCombosSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="#80f7f32e"
+        android:backgroundTint="#ffff00"
+        android:switchPadding="15dp"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="Kicking Techniques"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#cd18298f"
+        android:textSize="18sp" />
+
+    <Switch
+        android:id="@+id/randomBlockCombosSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="#80f7f32e"
+        android:backgroundTint="#ffff00"
+        android:switchPadding="15dp"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="Blocking Tehniques"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#cd18298f"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/beginRandomCombosButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:background="#bfeeff41"
+        android:fadingEdge="none|horizontal|vertical"
+        android:fontFamily="casual"
+        android:scrollbars="vertical"
+        android:shadowColor="#ffd740"
+        android:text="Begin Combinations"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#536dfe"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+</LinearLayout>

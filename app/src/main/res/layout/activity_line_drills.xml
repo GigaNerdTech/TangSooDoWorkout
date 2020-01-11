@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/AppTheme"
+    android:orientation="vertical"
+    android:background="@drawable/tangsoodo_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#80303f9f">
+
+    <androidx.appcompat.widget.Toolbar
+        android:theme="?attr/actionBarTheme"
+        android:id="@+id/toolbar4"
+        android:background="#7c4dff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        app:title="Line Drills"
+        app:titleMarginStart="140dp"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+        app:titleTextColor="#ffff00" />
+
+    <Button
+        android:textSize="30sp"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:textColor="#536dfe"
+        android:id="@+id/handLineDrillsButton"
+        android:background="#bfeeff41"
+        android:scrollbars="vertical"
+        android:fadingEdge="none|horizontal|vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:text="Hand Line Drills"
+        android:shadowColor="#ffd740"
+        android:textAllCaps="false"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:textSize="30sp"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:textColor="#536dfe"
+        android:id="@+id/kickingLineDrillsButton"
+        android:background="#bfeeff41"
+        android:scrollbars="vertical"
+        android:fadingEdge="none|horizontal|vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:text="Kicking Line Drills"
+        android:shadowColor="#ffd740"
+        android:textAllCaps="false"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:textSize="30sp"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:textColor="#536dfe"
+        android:id="@+id/blockLineDrillsButton"
+        android:background="#bfeeff41"
+        android:scrollbars="vertical"
+        android:fadingEdge="none|horizontal|vertical"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:text="Blocking Line Drills"
+        android:shadowColor="#ffd740"
+        android:textAllCaps="false"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        style="@style/Widget.AppCompat.Button.Colored" />
+</LinearLayout>

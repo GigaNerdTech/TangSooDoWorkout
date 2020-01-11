@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/warmUpLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tangsoodo_background"
+    android:backgroundTint="#80303f9f"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7c4dff"
+        android:minHeight="?attr/actionBarSize"
+        android:textAlignment="center"
+        app:title="Warm-Ups"
+        app:titleMarginStart="120dp"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:titleTextColor="#ffff00" />
+
+    <Button
+        android:id="@+id/bowInButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#bfeeff41"
+        android:fadingEdge="none|horizontal|vertical"
+        android:fontFamily="casual"
+        android:scrollbars="vertical"
+        android:shadowColor="#ffd740"
+        android:text="Bow In"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#536dfe"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+
+    <Button
+        android:id="@+id/stretchesButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#bfeeff41"
+        android:fadingEdge="none|horizontal|vertical"
+        android:fontFamily="casual"
+        android:shadowColor="#ffd740"
+        android:text="Stretches"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#536dfe"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+
+    <Button
+        android:id="@+id/jointWarmUpButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#bfeeff41"
+        android:fadingEdge="none|horizontal|vertical"
+        android:fontFamily="casual"
+        android:shadowColor="#ffd740"
+        android:text="Joint Warm-Up"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#536dfe"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+
+    <Button
+        android:id="@+id/aerobicWarmupButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:background="#bfeeff41"
+        android:fadingEdge="none|horizontal|vertical"
+        android:fontFamily="casual"
+        android:shadowColor="#ffd740"
+        android:text="Aerobic Warm-Up"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#536dfe"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+
+</LinearLayout>
