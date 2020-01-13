@@ -1212,7 +1212,7 @@ class tangSooDoWorkoutClass(callingContext1: Context, callingActiv1: AppCompatAc
 
                     connection.setRequestProperty("charset", "utf-8")
                     connection.setRequestProperty("Content-Type","application/json")
-                    connection.setRequestProperty("X-Goog-Api-Key","AIzaSyClqA2Z892U4A4zP6c49MlQcMS2vrtfInw")
+                    
                     val someJson: ByteArray = """
                         {
                             "input": {
